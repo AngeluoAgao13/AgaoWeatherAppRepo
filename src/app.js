@@ -23,6 +23,12 @@ app.use(express.static(publicDirectoryPath))
 
 // this function ay para ma search an app.com or any .com that we creat
 
+// const dayjs = require('dayjs');
+// let now = dayjs();
+// console.log(now.format("ddd, MMM D"));
+
+
+
 
 app.get('', (req, res) => { // this is for the index.html  main page 
     res.render('index', {
@@ -39,13 +45,13 @@ app.get ('/about', (req, res) => {  //this is for the about page
     })
 })
 
-app.get ('/help',(req, res) =>{
-    res.render('help', {
-        helptext: 'do you wanna build a snowman?',
-        title: 'Help',
-        name: 'Angge Angge'
-    })
-}) 
+// app.get ('/help',(req, res) =>{
+//     res.render('help', {
+//         helptext: 'do you wanna build a snowman?',
+//         title: 'Help',
+//         name: 'Angge Angge'
+//     })
+// }) 
 app.get('/weather',(req,res) => {
     if (!req.query.address) {
         return res.send({
@@ -68,7 +74,7 @@ app.get('/weather',(req,res) => {
                 location,
                 address: req.query.address
             })
-        })
+        }) 
     })
     // res.send({
     //     forecast: 'Its summer',
@@ -105,6 +111,7 @@ app.get ('*', (req, res) => {
         errorMessage: 'Sorry! Page not found.'
     })
 })
+
 
 
 

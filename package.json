@@ -1,7 +1,6 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.10.7",
     "express": "^4.16.4",
     "hbs": "^4.0.1",
+    "moment": "^2.29.1",
     "request": "^2.88.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeluoAgao13/AgaoWeatherAppRepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngeluoAgao13/AgaoWeatherAppRepo/issues"
+  },
+  "homepage": "https://github.com/AngeluoAgao13/AgaoWeatherAppRepo#readme",
+  "description": ""
 }

@@ -1,6 +1,6 @@
 /* padding use to have space between text */
 body {
-    color: #FFB6C1;  /* hex code*/
+    color: #7393B3;  /* hex code*/
     font-family: arial;
     max-width: 650px;
     margin: 0 /*sa taas at  baba*/  auto /*left and right*/ ; 
@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     min-height  : 100vh;
-
 }
 
 .main-content{
@@ -25,11 +24,13 @@ footer {
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+    font-size: small;
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;; 
+    font-weight: bold;
 }
 
 h1 {
@@ -41,10 +42,11 @@ header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    
 }
 
 .portrait {
-    width: 150px;
+    width: 155px;
     /* border-radius: 100px; */
     margin-bottom: 0px;
 }
@@ -72,10 +74,19 @@ button {
 #message-1{
     color:#888888;
     margin-top: 100px;
-
+    font-size: 20px;
+    text-align: center;
 }
 
 #message-2{
     color: #888888;
     font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: #454545;
+    padding: 0 16px;
+    font-size: 15px;
 }

@@ -20,4 +20,9 @@ const geocode = (address, callback) => {
     })
 }     
 
+// const dayjs = require('dayjs');
+// let now = dayjs();
+
+// console.log(now.format("ddd, MMM D"));
+
 module.exports = geocode 
