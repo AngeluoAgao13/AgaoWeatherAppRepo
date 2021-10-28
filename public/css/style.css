@@ -1,4 +1,7 @@
+
+
 /* padding use to have space between text */
+
 body {
     color: #7393B3;  /* hex code*/
     font-family: arial;
@@ -10,10 +13,27 @@ body {
     flex-direction: column;
     min-height: 100vh;
     min-height  : 100vh;
+    /* background-image: url('/img/bg.gif'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    background-image: linear-gradient(rgba(245, 235, 235, 0.837),rgba(230, 188, 219, 0.946)), url('/img/weather-forecast.gif');
 }
-
 .main-content{
      flex-grow: 1;
+     margin: left;
+}
+
+mark {
+    color-adjust: cover;
+    color: black;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-left: 500px;
+    /* margin: 3px 500px; */
 }
 
 footer { 
