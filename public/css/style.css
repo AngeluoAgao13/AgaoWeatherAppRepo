@@ -12,12 +12,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
     min-height  : 100vh;
-    /* background-image: url('/img/bg.gif'); */
+    /* background-image: url('/img/weather-forecast.gif'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    background-image: linear-gradient(rgba(245, 235, 235, 0.837),rgba(230, 188, 219, 0.946)), url('/img/weather-forecast.gif');
+    background-image: linear-gradient(#000080,rgba(230, 188, 219, 0.946)), url('/img/weather-forecast.gif');
 }
 .main-content{
      flex-grow: 1;
@@ -28,11 +28,11 @@ body {
 
 h3 {
     margin-top: 0px;
-    margin-left: 500px; 
+    margin-left: 460px; 
      /* margin: 3px 500px; */
-    color: #696969;
+    color: #A9A9A9;
     text-decoration: 3px underline;
-    
+    font-size: 40px;
 }
 
 footer { 
