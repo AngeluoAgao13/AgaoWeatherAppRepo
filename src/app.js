@@ -39,7 +39,7 @@ app.get('', (req, res) => { // this is for the index.html  main page
 
 app.get ('/about', (req, res) => {  //this is for the about page
     res.render('about', {
-        title: 'About me',
+        title: 'About us',
         name: 'AnggeAngge',
         aboutMessage: 'This is the group members',
     })

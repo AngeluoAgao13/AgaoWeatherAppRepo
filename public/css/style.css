@@ -1,5 +1,4 @@
 
-
 /* padding use to have space between text */
 
 body {
@@ -23,17 +22,17 @@ body {
 .main-content{
      flex-grow: 1;
      margin: left;
+
 }
 
-mark {
-    color-adjust: cover;
-    color: black;
-}
 
-h4 {
+h3 {
     margin-top: 0px;
-    margin-left: 500px;
-    /* margin: 3px 500px; */
+    margin-left: 500px; 
+     /* margin: 3px 500px; */
+    color: #696969;
+    text-decoration: 3px underline;
+    
 }
 
 footer { 
@@ -47,6 +46,7 @@ footer {
     font-size: small;
 }
 
+
 header {
     margin-top: 16px;
     margin-bottom: 48px;; 
@@ -56,10 +56,11 @@ header {
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
+    text-shadow: 2px 2px #696969;	
 }
 
 header a {
-    color: #888888;
+    color: #696969;
     margin-right: 16px;
     text-decoration: none;
     
@@ -69,10 +70,14 @@ header a {
     width: 155px;
     /* border-radius: 100px; */
     margin-bottom: 0px;
+   border: 5px solid #555;
+   background-color: grey;
 }
 
 h2 {
-    color: grey;
+    color: #7393B3;
+    text-shadow: #000000;
+    text-shadow: 1px 1px #696969;
 }
 
 input {
@@ -92,21 +97,25 @@ button {
 }
 
 #message-1{
-    color:#888888;
+    color: #808080;
     margin-top: 100px;
     font-size: 20px;
     text-align: center;
 }
 
 #message-2{
-    color: #888888;
+    color: #000000;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
 p {
-    color: #454545;
+    color: #000000;
     padding: 0 16px;
     font-size: 15px;
+}
+
+h5 {
+    color: #696969;
 }
